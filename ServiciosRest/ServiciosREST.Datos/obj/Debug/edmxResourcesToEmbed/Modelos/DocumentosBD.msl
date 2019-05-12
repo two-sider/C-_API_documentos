@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Data_documentosModelStoreContainer" CdmEntityContainer="documentosConecction">
+    <EntitySetMapping Name="documentos">
+      <EntityTypeMapping TypeName="Data_documentosModel.documentos">
+        <MappingFragment StoreEntitySet="documentos">
+          <ScalarProperty Name="doc_id" ColumnName="doc_id" />
+          <ScalarProperty Name="doc_nombre" ColumnName="doc_nombre" />
+          <ScalarProperty Name="doc_autor" ColumnName="doc_autor" />
+          <ScalarProperty Name="doc_institucion" ColumnName="doc_institucion" />
+          <ScalarProperty Name="doc_tipo" ColumnName="doc_tipo" />
+          <ScalarProperty Name="doc_No_paginas" ColumnName="doc_No_paginas" />
+          <ScalarProperty Name="doc_prestamo" ColumnName="doc_prestamo" />
+          <ScalarProperty Name="doc_tema" ColumnName="doc_tema" />
+          <ScalarProperty Name="doc_pais" ColumnName="doc_pais" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

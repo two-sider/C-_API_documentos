@@ -1,0 +1,10 @@
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosREST.Datos\bin\Debug\ServiciosREST.Datos.dll.config
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosREST.Datos\bin\Debug\ServiciosREST.Datos.dll
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosREST.Datos\bin\Debug\ServiciosREST.Datos.pdb
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosREST.Datos\bin\Debug\EntityFramework.dll
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosREST.Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosREST.Datos\bin\Debug\EntityFramework.xml
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosREST.Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosREST.Datos\obj\Debug\ServiciosREST.Datos.csprojResolveAssemblyReference.cache
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosREST.Datos\obj\Debug\ServiciosREST.Datos.dll
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosREST.Datos\obj\Debug\ServiciosREST.Datos.pdb

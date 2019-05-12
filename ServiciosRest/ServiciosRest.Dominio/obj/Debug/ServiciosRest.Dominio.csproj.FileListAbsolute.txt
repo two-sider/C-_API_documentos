@@ -1,0 +1,4 @@
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.Dominio\bin\Debug\ServiciosRest.Dominio.dll
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.Dominio\bin\Debug\ServiciosRest.Dominio.pdb
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.Dominio\obj\Debug\ServiciosRest.Dominio.dll
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.Dominio\obj\Debug\ServiciosRest.Dominio.pdb

@@ -1,0 +1,39 @@
+﻿@model List<documentos>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Listado de documentos</h2>
+<hr />
+<table class="table table-responsive">
+    <thead>
+        <tr>
+            <td>doc_id</td>
+            <td>doc_nombre</td>
+            <td>doc_autor</td>
+            <td>doc_institucion</td>
+            <td>doc_tipo</td>
+            <td>doc_No_paginas</td>
+            <td>doc_prestamo</td>
+            <td>doc_tema</td>
+            <td>doc_pais</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var documento in Model)
+        {
+        <tr>
+            <td>@documento.doc_id</td>
+            <td>@documento.doc_nombre</td>
+            <td>@documento.doc_autor</td>
+            <td>@documento.doc_institucion</td>
+            <td>@documento.doc_tipo</td>
+            <td>@documento.doc_No_paginas</td>
+            <td>@documento.doc_prestamo</td>
+            <td>@documento.doc_tema</td>
+            <td>@documento.doc_pais</td>
+        </tr>
+        }
+    </tbody>
+</table>
+

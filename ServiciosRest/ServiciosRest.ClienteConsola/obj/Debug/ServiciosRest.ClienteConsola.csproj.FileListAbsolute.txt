@@ -1,0 +1,12 @@
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteConsola\bin\Debug\ServiciosRest.ClienteConsola.exe.config
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteConsola\bin\Debug\ServiciosRest.ClienteConsola.exe
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteConsola\bin\Debug\ServiciosRest.ClienteConsola.pdb
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteConsola\obj\Debug\ServiciosRest.ClienteConsola.exe
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteConsola\obj\Debug\ServiciosRest.ClienteConsola.pdb
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteConsola\bin\Debug\Newtonsoft.Json.dll
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteConsola\bin\Debug\ServiciosREST.Datos.dll
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteConsola\bin\Debug\EntityFramework.dll
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteConsola\bin\Debug\ServiciosREST.Datos.pdb
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteConsola\bin\Debug\Newtonsoft.Json.xml
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteConsola\bin\Debug\EntityFramework.xml
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteConsola\obj\Debug\ServiciosRest.ClienteConsola.csprojResolveAssemblyReference.cache
