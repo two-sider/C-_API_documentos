@@ -23,11 +23,35 @@ namespace API_Documentos.Controllers
             var documento = BD.documentos.FirstOrDefault(x => x.doc_id == id);
             return documento;
         }
+        [HttpPost]
+        public bool Post(documentos doc)
+        {
+            BD.documentos.Add(doc);
+            return BD.SaveChanges() > 0;
+            
+        }
+        [HttpPut]
+        public bool Put(documentos doc)
+        {
+            var docActualizar = BD.documentos.FirstOrDefault(x => x.doc_id == doc.doc_id);
+            docActualizar.doc_nombre = doc.doc_nombre;
+            docActualizar.doc_autor = doc.doc_autor;
+            docActualizar.doc_institucion = doc.doc_institucion;
+            docActualizar.doc_No_paginas = doc.doc_No_paginas;
+            docActualizar.doc_tipo = doc.doc_tipo;
+            docActualizar.doc_tema = doc.doc_tema;
+            docActualizar.doc_prestamo = doc.doc_prestamo;
+            docActualizar.doc_pais = doc.doc_pais;
+            
+            return BD.SaveChanges() > 0;
+
+        }
         [HttpDelete]
-        public documentos DELETE(int id)
+        public bool DELETE(int id)
         {
             var documento = BD.documentos.FirstOrDefault(x => x.doc_id == id);
-            return documento;
+            BD.documentos.Remove(documento);
+            return BD.SaveChanges() > 0;
         }
     }
 }

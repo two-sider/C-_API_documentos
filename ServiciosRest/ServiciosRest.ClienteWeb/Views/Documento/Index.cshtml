@@ -3,7 +3,9 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Listado de documentos</h2>
+<h2>
+    <a href="@Url.Action("Nuevo","Documento")" class="btn btn-primary">Agregar documento</a>
+    Listado de documentos</h2>
 <hr />
 <table class="table table-responsive">
     <thead>
@@ -12,11 +14,7 @@
             <td>doc_nombre</td>
             <td>doc_autor</td>
             <td>doc_institucion</td>
-            <td>doc_tipo</td>
-            <td>doc_No_paginas</td>
-            <td>doc_prestamo</td>
-            <td>doc_tema</td>
-            <td>doc_pais</td>
+            <td>Acciones</td>
         </tr>
     </thead>
     <tbody>
@@ -27,11 +25,10 @@
             <td>@documento.doc_nombre</td>
             <td>@documento.doc_autor</td>
             <td>@documento.doc_institucion</td>
-            <td>@documento.doc_tipo</td>
-            <td>@documento.doc_No_paginas</td>
-            <td>@documento.doc_prestamo</td>
-            <td>@documento.doc_tema</td>
-            <td>@documento.doc_pais</td>
+            <td><a href="@Url.Action("Actualizar","Documento", new { id = documento.doc_id })" class="btn btn-success">Actualizar</a>
+                <a href="@Url.Action("Eliminar","Documento", new { id = documento.doc_id })" class="btn btn-danger">Eliminar</a>
+                <a href="@Url.Action("Detalle","Documento", new { id = documento.doc_id })" class="btn btn-default">Detalle</a>
+            </td>
         </tr>
         }
     </tbody>

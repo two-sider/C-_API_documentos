@@ -47,3 +47,10 @@ C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteWeb\bin\es\Syst
 C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteWeb\bin\es\System.Web.WebPages.Razor.resources.dll
 C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteWeb\obj\Debug\ServiciosRest.ClienteWeb.dll
 C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteWeb\obj\Debug\ServiciosRest.ClienteWeb.pdb
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteWeb\bin\System.Net.Http.dll
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteWeb\bin\System.Net.Http.Extensions.dll
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteWeb\bin\System.Net.Http.Formatting.dll
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteWeb\bin\System.Net.Http.Primitives.dll
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteWeb\bin\System.Net.Http.WebRequest.dll
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteWeb\bin\System.Net.Http.xml
+C:\Users\erick\Desktop\C#_API\ServiciosRest\ServiciosRest.ClienteWeb\bin\System.Net.Http.WebRequest.xml

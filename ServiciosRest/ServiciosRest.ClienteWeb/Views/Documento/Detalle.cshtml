@@ -1,0 +1,47 @@
+﻿@model documentos
+@{
+    ViewBag.Title = "Detalle";
+}
+
+<h2>Detalle Documento</h2>
+<hr />
+
+<div class="form-group">
+    <label>ID: </label>
+    @Model.doc_id
+</div>
+<div class="form-group">
+    <label>Nombre: </label>
+    @Model.doc_nombre
+</div>
+<div class="form-group">
+    <label>Autor:</label>
+    @Model.doc_autor
+</div>
+<div class="form-group">
+    <label>Institucion: </label>
+    @Model.doc_institucion
+</div>
+<div class="form-group">
+    <label>Número de Páginas: </label>
+    @Model.doc_No_paginas
+</div>
+<div class="form-group">
+    <label>Tema: </label>
+    @Model.doc_tema
+</div>
+<div class="form-group">
+    <label>Tipo de Documento: </label>
+    @Model.doc_tipo
+</div>
+<div class="form-group">
+    <label>Pais: </label>
+    @Model.doc_pais
+</div>
+<div class="form-group">
+    <label>¿en Prestamo?</label>
+    @Model.doc_prestamo
+</div>
+<div class="form-group">
+    <a href="@Url.Action("Index","Documento")">Regresar</a>
+</div>

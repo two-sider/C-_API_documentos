@@ -1,0 +1,51 @@
+﻿@model documentos
+@{
+    ViewBag.Title = "Actualizar";
+}
+
+<h2>Actualizar Documento</h2>
+<hr />
+
+<form action="@Url.Action("Actualizar","Documento")" method="post">
+    <div class="form-group">
+        <label>Nombre</label>
+        @Html.TextBoxFor(x => x.doc_id, new { @class = "form-control", @readonly="readonly" })
+    </div>
+    <div class="form-group">
+        <label>Nombre</label>
+        @Html.TextBoxFor(x => x.doc_nombre, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Autor</label>
+        @Html.TextBoxFor(x => x.doc_autor, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Institucion</label>
+        @Html.TextBoxFor(x => x.doc_institucion, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Número de Páginas</label>
+        @Html.TextBoxFor(x => x.doc_No_paginas, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Tema</label>
+        @Html.TextBoxFor(x => x.doc_tema, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Tipo de Documento</label>
+        @Html.TextBoxFor(x => x.doc_tipo, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Pais</label>
+        @Html.TextBoxFor(x => x.doc_pais, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>¿en Prestamo?</label>
+        @Html.TextBoxFor(x => x.doc_prestamo, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn btn-success" value="Enviar" />
+        <a href="@Url.Action("Index","Documento")">Regresar</a>
+    </div>
+</form>
+
